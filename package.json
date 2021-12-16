@@ -1,0 +1,11 @@
+{
+    "name": "threejs-github-pages-deployment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: No test specified\" && exit 1"
+    },
+    "autor": "",
+    "license": "ISC"
+}
