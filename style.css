@@ -125,7 +125,7 @@ body {
      object-fit: fill;
   height: 100%;
   max-width: 100%;
-  padding-top: 48px;
+  padding-top: 64px;
   padding-bottom: 112px;
   position: relative;
   display: -webkit-box;
@@ -394,12 +394,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6em;
+    margin-top: 12em;
 }
 
 .features .features-title{
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 .features h3 {
