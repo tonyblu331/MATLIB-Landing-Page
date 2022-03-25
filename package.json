@@ -4,14 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: No test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: No test specified\" && exit 1"
   },
   "autor": "",
   "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  },
   "dependencies": {
     "parcel-bundler": "^1.12.5"
   }
