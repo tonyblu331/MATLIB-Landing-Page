@@ -1,342 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
 
     <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+      defer
+    ></script>
     <script src="script.js" defer></script>
     <script src="app.js" type="module" defer></script>
-    <title> MATLIB | An Unreal Engine Material & Shader Library </title>
-</head>
+    <title>MATLIB | An Unreal Engine Material & Shader Library</title>
+  </head>
 
-<body>
-
+  <body>
     <!--Hero Header-->
     <section>
-        <header>
-            <div class="hero-container">
-                <video src="video/vertex-painting-compressed.mp4" muted loop autoplay></video>
-                <div class="video-overlay"></div>
-                <div class="title">
-                    <h1 class="logotype">MATLIB</h1>
-                    <h2 class="slogan">Your complete library to empower your Unreal worlds.</h2>
-                    <button class="cta">Get Access Now</button>
-                </div>
-            </div>
-        </header>
+      <header>
+        <div class="hero-container">
+          <video
+            src="video/vertex-painting-compressed.mp4"
+            muted
+            loop
+            autoplay
+          ></video>
+          <div class="video-overlay"></div>
+          <div class="title">
+            <h1 class="logotype">MATLIB</h1>
+            <h2 class="slogan">
+              Your complete library to empower your Unreal worlds.
+            </h2>
+            <button class="cta">Get Access Now</button>
+          </div>
+        </div>
+      </header>
     </section>
 
     <!--Aleks Testimonial-->
     <section class="testimonial">
-        <div class="testimonial-container aleks">
-            <article>
-                <div class="testimonial-quote">
-                    <div class="testimonial-author">
-                        <img src="img/Aleksander-Danilovac-pp.jpg" alt="Aleksander Danilovac">
-                        <small><span>Aleksandar Danilovac</span>3D Environment Artist at Xbox Games Studio | Inxile
-                            Games</small>
-                    </div>
-                    <p>
-                        During the creation of my environment, MATLIB materials helped me speed up my iteration process
-                        for
-                        my
-                        environment. While at the same time helping me keep the numbers of the materials I needed to the
-                        minimum.
-                    </p>
-                </div>
-            </article>
-        </div>
+      <div class="testimonial-container aleks">
+        <article>
+          <div class="testimonial-quote">
+            <div class="testimonial-author">
+              <img
+                src="img/Aleksander-Danilovac-pp.jpg"
+                alt="Aleksander Danilovac"
+              />
+              <small
+                ><span>Aleksandar Danilovac</span>3D Environment Artist at Xbox
+                Games Studio | Inxile Games</small
+              >
+            </div>
+            <p>
+              During the creation of my environment, MATLIB materials helped me
+              speed up my iteration process for my environment. While at the
+              same time helping me keep the numbers of the materials I needed to
+              the minimum.
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
     <main>
+      <!--Landing Page Navigation-->
+      <header class="nav-head">
+        <nav class="landing-page-nav">
+          <div class="page-nav">
+            <ul>
+              <li><a href="#overview">01 Overview</a></li>
+              <li><a href="#features">02 Features</a></li>
+              <li><a href="#roadmap">03 Roadmap</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-        <!--Landing Page Navigation-->
-        <header class="nav-head">
-            <nav class="landing-page-nav">
-                <div class="page-nav">
-                    <ul>
-                        <li><a href="#overview">01 Overview</a></li>
-                        <li><a href="#features">02 Features</a></li>
-                        <li><a href="#roadmap">03 Roadmap</a></li>
-                    </ul>
-                </div>
-            </nav>
+      <!--01. Overview -->
+      <section class="overview" id="overview">
+        <h2>01 <span>Overview</span></h2>
+        <div class="overview-card-container">
+          <div class="overview-col-1">
+            <div class="overview-card">
+              <div class="img-wrapper">
+                <img src="img/Godrays_shot.jpg" alt="" />
+              </div>
+              <div class="overview-card-content">
+                <h3>Elevate your assets</h3>
+                <article>
+                  <p>
+                    All Materials and shaders are created to enable you to bring
+                    out the best out of your textures and give them the best
+                    look of your assets at any angle. We go an extra mile of the
+                    usual Master Material, as we try to always include the most
+                    recent features of the current advancedements of real-time
+                    technologies.
+                  </p>
+                  <p>
+                    Adjusted to most people needs, delivering from complex
+                    4-Layer Vertex Painting with Oily puddles to a simple prop
+                    master material.
+                  </p>
+                </article>
+              </div>
+            </div>
+            <div class="overview-card">
+              <div class="img-wrapper">
+                <img src="img/Concrete_MI_Showcase.jpg" alt="" />
+              </div>
+              <div class="overview-card-content">
+                <h3>Full control through Material Instances</h3>
+                <article>
+                  <p>
+                    Each Master Materials comes packed with tons of options,
+                    available to tweak at their material instances. Allowing you
+                    to iterate in a continous manner, even without the need of
+                    going back to other softwares to make tweaks that can be
+                    done in-engine and in real-time without any perfomace
+                    impact.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="overview-col-2">
+            <div class="overview-card">
+              <div class="img-wrapper">
+                <img src="img/brick_render.jpg" alt="" />
+              </div>
+              <div class="overview-card-content">
+                <h3>Ray-Tracing and Real-time Ready Materials</h3>
+                <article>
+                  <p>
+                    Our materials are prepared to look the best at the most
+                    demanding situations from virtual productions scenarios
+                    where ray-tracing and path-tracing are at the top of the
+                    stack to deliver that photorealistic experience to also
+                    their counterpart of game and real-time experiences; such as
+                    high-fidelity visuals games or a Virtual Reality
+                    Architecture Visualization demo.
+                  </p>
+                </article>
+              </div>
+            </div>
+            <div class="overview-card">
+              <div class="img-wrapper">
+                <img
+                  src="img/blueprints_nodes_out.jpg"
+                  alt="Blueprint Shader Screenshot"
+                />
+              </div>
+              <div class="overview-card-content">
+                <h3>Slow-cooked using Unreal Engine Blueprint System</h3>
+                <article>
+                  <p>
+                    Made using Unreal Engine Visual Scripting system in order to
+                    deliver the most flexible and modular design of the
+                    materials, and allowing anyone in hold of
+                    <strong>MATLIB</strong>
+                    to customize the included materials and shaders to their
+                    production needs. As well, thanks to blueprint, the
+                    installation is as simple as a drag-n-drop to your desired
+                    folder.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Shira Testimonial-->
+      <section class="testimonial">
+        <div class="testimonial-container shira">
+          <article>
+            <div class="testimonial-quote">
+              <div class="testimonial-author">
+                <img src="img/Shira-Eilan-pp.jpg" alt="Shira Eilan" />
+                <small
+                  ><span>Shira Eilan</span>3D Environment Artist at Embar Lab |
+                  Kena Bridge of Spirits</small
+                >
+              </div>
+              <p>
+                During the course of my project, I had many challenges and
+                because of that I needed help during the creation of my shaders
+                and materials. This library helped me speed up the process of
+                the look-dev of my assets and focus more on the creative side of
+                my world.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--Features Section-->
+      <section class="features" id="features">
+        <header class="features-title">
+          <h2>02 <span>Features</span></h2>
+          <h3 class="features-subtitle">
+            Whatever you need. PACKED. At your fingerprints
+          </h3>
         </header>
-
-        <!--01. Overview -->
-        <section class="overview" id="overview">
-            <h2>01 <span>Overview</span></h2>
-            <div class="overview-card-container">
-                <div class="overview-col-1">
-                    <div class="overview-card">
-                        <div class="img-wrapper">
-                            <img src="img/Godrays_shot.jpg" alt="">
-                        </div>
-                        <div class="overview-card-content">
-                            <h3>Elevate your assets</h3>
-                            <article>
-                                <p>All Materials and shaders are created to enable you to bring out the best out of your
-                                    textures
-                                    and give them the best look of your assets at any angle. We go an extra mile of the
-                                    usual
-                                    Master
-                                    Material, as we try to always include the most recent features of the current
-                                    advancedements
-                                    of real-time
-                                    technologies. </p>
-                                <p> Adjusted to most people needs, delivering from complex
-                                    4-Layer
-                                    Vertex Painting with Oily puddles to a simple prop
-                                    master material.</p>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="overview-card">
-                        <div class="img-wrapper">
-                            <img src="img/Concrete_MI_Showcase.jpg" alt="">
-                        </div>
-                        <div class="overview-card-content">
-                            <h3>Full control through Material Instances</h3>
-                            <article>
-                                <p>Each Master Materials comes packed with tons of options, available to tweak at their
-                                    material
-                                    instances. Allowing you to iterate in a continous manner, even without the need of
-                                    going
-                                    back to
-                                    other softwares to make tweaks that can be done in-engine and in real-time without
-                                    any
-                                    perfomace
-                                    impact.</p>
-                            </article>
-                        </div>
-                    </div>
+        <div class="features-slider">
+          <div class="navigation">
+            <button class="btn active">PBR++</button>
+            <button class="btn">Vertex Painting</button>
+            <button class="btn">Props & Tileables</button>
+            <button class="btn">Cloth</button>
+            <button class="btn">Clearcoat</button>
+          </div>
+          <div class="slider-wrapper">
+            <div class="slider" id="slider">
+              <div class="slide active">
+                <div class="info" id="slide-1">
+                  <span>PBR Metal-Rough ++</span>
+                  <p>
+                    Tired of just being stuck with PBR Metal Rough and not being
+                    able to use Specular? MATLIB brings you the possibility of
+                    using Metal-Rough + Specular! And it doesn't stop there, as
+                    it also includes micro-shadowing and other neat features
+                    such as anisotropy! Just pair those two and enable some nice
+                    bent-normals and make your assets shine.
+                  </p>
                 </div>
-                <div class="overview-col-2">
-                    <div class="overview-card">
-                        <div class="img-wrapper">
-                            <img src="img/brick_render.jpg" alt="">
-                        </div>
-                        <div class="overview-card-content">
-                            <h3>Ray-Tracing and Real-time Ready Materials</h3>
-                            <article>
-                                <p>Our materials are prepared to look the best at the most demanding situations from
-                                    virtual
-                                    productions scenarios where ray-tracing and path-tracing are at the top of the stack
-                                    to
-                                    deliver
-                                    that photorealistic experience to also their counterpart of game and real-time
-                                    experiences;
-                                    such
-                                    as high-fidelity visuals games or a Virtual Reality Architecture Visualization demo.
-                                </p>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="overview-card">
-                        <div class="img-wrapper">
-                            <img src="img/blueprints_nodes_out.jpg" alt="Blueprint Shader Screenshot">
-                        </div>
-                        <div class="overview-card-content">
-                            <h3>Slow-cooked using Unreal Engine Blueprint System</h3>
-                            <article>
-                                <p>Made using Unreal Engine Visual Scripting system in order to deliver the most
-                                    flexible
-                                    and
-                                    modular design of the materials, and allowing anyone in hold of
-                                    <strong>MATLIB</strong>
-                                    to
-                                    customize the included materials and shaders to
-                                    their production needs. As well, thanks to blueprint, the installation is as simple
-                                    as a
-                                    drag-n-drop to
-                                    your desired folder.</p>
-                            </article>
-                        </div>
-                    </div>
+                <img src="img/Alumimiun_Render.jpg" alt="Slide 01" />
+              </div>
+              <div class="slide" id="slide-2">
+                <div class="info">
+                  <span>Enhanced Vertex Painting</span>
+                  <p>
+                    Out-of-the-box we bring an enhanced vertex-painting
+                    material. Layer up your materials with currently up to
+                    4-Layer Blend, and then weather them by using some
+                    procedural controls. Want to add water to your asphalt?
+                    Done! Want to add some cracks? Done! Want to add some Oily
+                    puddles? Done! All insinde one single material. *Sub-divided
+                    meshes not provided
+                  </p>
                 </div>
-            </div>
-        </section>
-
-        <!--Shira Testimonial-->
-        <section class="testimonial">
-            <div class="testimonial-container shira">
-                <article>
-                    <div class="testimonial-quote">
-                        <div class="testimonial-author">
-                            <img src="img/Shira-Eilan-pp.jpg" alt="Shira Eilan">
-                            <small><span>Shira Eilan</span>3D Environment Artist at Embar Lab | Kena Bridge of
-                                Spirits</small>
-                        </div>
-                        <p>
-                            During the course of my project, I had many challenges and because of that I needed help
-                            during
-                            the creation of my shaders and materials. This library helped me speed up the process of the
-                            look-dev of my assets and focus more on the creative side of my world.
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!--Features Section-->
-        <section class="features" id="features">
-            <header class="features-title">
-                <h2>02 <span>Features</span></h2>
-                <h3 class="features-subtitle">Whatever you need. PACKED. At your fingerprints</h3>
-            </header>
-            <div class="features-slider">
-                <div class="navigation">
-                    <button class="btn active">PBR++</button>
-                    <button class="btn">Vertex Painting</button>
-                    <button class="btn">Props & Tileables</button>
-                    <button class="btn">Cloth</button>
-                    <button class="btn">Clearcoat</button>
+                <img src="img/vertex-painting.gif" alt="Slide 02" />
+              </div>
+              <div class="slide" id="slide-3">
+                <div class="info">
+                  <span>Props and Tileables</span>
+                  <p>
+                    Our Standard Master Material for Props and Tileables, are
+                    packed with tons of options. Able to change the Hue,
+                    Saturation, Lightness values on the fly to being able to
+                    debug your material if needed. Trims Shader is also included
+                    which lets you offset your trim to any desired direction.
+                    Let's not forget that you also have the option to use
+                    Parallax-Occlusion Mapping or Bump Offset to bring that
+                    extra depth.
+                  </p>
                 </div>
-                <div class="slider-wrapper">
-                    <div class="slider" id="slider">
-                        <div class="slide active" id="slide-1">
-                            <div class="info" id="slide-1">
-                                <span>PBR Metal-Rough ++</span>
-                                <p>Tired of just being stuck with PBR Metal Rough and not being able to use Specular?
-                                    MATLIB brings you the possibility of using Metal-Rough + Specular! And it doesn't
-                                    stop
-                                    there, as it also includes
-                                    micro-shadowing and other neat features such as anisotropy! Just pair those two and enable some nice bent-normals and make your
-                                    assets
-                                    shine.
-                                </p>
-                            </div>
-                            <img src="img/Alumimiun_Render.jpg" alt="Slide 01">
-                        </div>
-                        <div class="slide" id="slide-2">
-                            <div class="info">
-                                <span>Enhanced Vertex Painting</span>
-                                <p>Out-of-the-box we bring an enhanced vertex-painting material.
-                                    Layer up your materials with currently up to 4-Layer Blend, and then weather them by
-                                    using
-                                    some procedural controls.
-                                    Want to add water to your asphalt? Done! Want to add some cracks? Done! Want to add
-                                    some
-                                    Oily puddles? Done! All insinde one single material.
-                                    *Sub-divided meshes not provided
-                                </p>
-                            </div>
-                            <img src="img/vertex-painting.gif" alt="Slide 02">
-                        </div>
-                        <div class="slide" id="slide-3">
-                            <div class="info">
-                                <span>Props and Tileables</span>
-                                <p>Our Standard Master Material for Props and Tileables, are packed with tons of
-                                    options.
-                                    Able to change the Hue, Saturation, Lightness values on the fly to being able to
-                                    debug your
-                                    material if needed.
-                                    Trims Shader is also included which lets you offset your trim to any desired
-                                    direction.
-                                    Let's not forget that you also have the option to use Parallax-Occlusion Mapping or
-                                    Bump
-                                    Offset to bring that extra depth.
-                                </p>
-                            </div>
-                            <img src="img/Assets_Showcase.jpg" alt="Slide 02">
-                        </div>
-                        <div class="slide" id="slide-4">
-                            <div class="info">
-                                <span>Cloth</span>
-                                <p>Clothing is one of those materials that no matter how hard you try they end up
-                                    looking quite
-                                    dull. Missing that sheen.
-                                    We took the best of some of the current cloth shader models from Facebook Ready at
-                                    Dawn |
-                                    Order 1886 cloth shader and CharlieD Imageworks
-                                    cloth shader and then translate them into Unreal to bring them to you.
-                                </p>
-                            </div>
-                            <img src="img/sofa_after.jpg" alt="Slide 02">
-                        </div>
-                        <div class="slide" id="slide-5">
-                            <div class="info">
-                                <span>Clearcoat</span>
-                                <p>Bring that shine out of any surface.
-                                    We know that there is clearcoat is already included into Unreal, but we changed the
-                                    rules of the game a little bit. We simply bring you some extras to it.
-                                    By letting you add some imperfections and weathering to your clearcoat, by simplying
-                                    using some masks. Plug-n-play and scratch that new car.
-                                </p>
-                            </div>
-                            <img src="img/clearcoat_rough.jpg" alt="Slide 02">
-                        </div>
-                    </div>
+                <img src="img/Assets_Showcase.jpg" alt="Slide 02" />
+              </div>
+              <div class="slide" id="slide-4">
+                <div class="info">
+                  <span>Cloth</span>
+                  <p>
+                    Clothing is one of those materials that no matter how hard
+                    you try they end up looking quite dull. Missing that sheen.
+                    We took the best of some of the current cloth shader models
+                    from Facebook Ready at Dawn | Order 1886 cloth shader and
+                    CharlieD Imageworks cloth shader and then translate them
+                    into Unreal to bring them to you.
+                  </p>
                 </div>
+                <img src="img/sofa_after.jpg" alt="Slide 02" />
+              </div>
+              <div class="slide" id="slide-5">
+                <div class="info">
+                  <span>Clearcoat</span>
+                  <p>
+                    Bring that shine out of any surface. We know that there is
+                    clearcoat is already included into Unreal, but we changed
+                    the rules of the game a little bit. We simply bring you some
+                    extras to it. By letting you add some imperfections and
+                    weathering to your clearcoat, by simplying using some masks.
+                    Plug-n-play and scratch that new car.
+                  </p>
+                </div>
+                <img src="img/clearcoat_rough.jpg" alt="Slide 02" />
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!--Mikel Testimonial-->
-        <section class="testimonial">
-            <div class="testimonial-container mikel">
-                <article>
-                    <div class="testimonial-quote">
-                        <div class="testimonial-author">
-                            <img src="img/Mikel-Iriberri-pp.jpg" alt="Mikel Iriberri">
-                            <small><span>Mikel Iriberri</span>3D Environment Artist at Hellbent Games</small>
-                        </div>
-                        <p>
-                            I was looking for a material library that would bring me enough flexibility for the scope of
-                            my
-                            project. MATLIB was exactly what I needed, bringing bunch of crazy options I never though
-                            about,
-                            bringing out the best of my props, and letting me just concentrate about other creative
-                            aspects
-                            of
-                            my environment.
-                        </p>
-                    </div>
-                </article>
+      <!--Mikel Testimonial-->
+      <section class="testimonial">
+        <div class="testimonial-container mikel">
+          <article>
+            <div class="testimonial-quote">
+              <div class="testimonial-author">
+                <img src="img/Mikel-Iriberri-pp.jpg" alt="Mikel Iriberri" />
+                <small
+                  ><span>Mikel Iriberri</span>3D Environment Artist at Hellbent
+                  Games</small
+                >
+              </div>
+              <p>
+                I was looking for a material library that would bring me enough
+                flexibility for the scope of my project. MATLIB was exactly what
+                I needed, bringing bunch of crazy options I never though about,
+                bringing out the best of my props, and letting me just
+                concentrate about other creative aspects of my environment.
+              </p>
             </div>
+          </article>
+        </div>
 
-    <section class="roadmap" id="roadmap">
-        <header class="roadmap-title">
+        <section class="roadmap" id="roadmap">
+          <header class="roadmap-title">
             <h2>03 <span>Roadmap</span></h2>
-        </header>
-        <div class="roadmap-container">
+          </header>
+          <div class="roadmap-container">
             <div class="wip">
-                <h2>WORK IN PROGRESS</h2>
-                <ul>
-                    <li><span>Clearcoat for Hard-Surfaces</span></li>
-                    <li><span>Ray-tracing ready Glass and Translucency for Props</span></li>
-                </ul>
+              <h2>WORK IN PROGRESS</h2>
+              <ul>
+                <li><span>Clearcoat for Hard-Surfaces</span></li>
+                <li>
+                  <span
+                    >Ray-tracing ready Glass and Translucency for Props</span
+                  >
+                </li>
+              </ul>
             </div>
             <div class="planned">
-                <h2>PLANNED</h2>
-                <ul>
-                    <li><span>Z-Up Procedural Materials</span></li>
-                    <li><span>Landscape Materials</span></li>
-                    <li><span>Foliage</span></li>
-                </ul>
+              <h2>PLANNED</h2>
+              <ul>
+                <li><span>Z-Up Procedural Materials</span></li>
+                <li><span>Landscape Materials</span></li>
+                <li><span>Foliage</span></li>
+              </ul>
             </div>
-        </div>
-    </section>
+          </div>
+        </section>
+      </section>
     </main>
     <footer>
-        <div id="container"></div>
-        <div class="copyright">
-            <small>&copy; Developed by Antonio Bonet | FE404 | Programming Interactivity | Harbour.Space | 2021</small>
-        </div>
+      <div id="container"></div>
+      <div class="copyright">
+        <small
+          >&copy; Developed by Antonio Bonet | FE404 | Programming Interactivity
+          | Harbour.Space | 2021</small
+        >
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
